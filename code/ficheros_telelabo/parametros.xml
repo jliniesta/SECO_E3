@@ -1,0 +1,47 @@
+<secoApp>
+    <Network user="" workstation="1" path="/home/fgarcia/Escritorio/DEFINITIVO_ESCALON" prefix="test"/>
+    <Motors>
+        <motor num="0" active="0" freq="20000"/>
+        <motor num="1" active="0" freq="20000"/>
+        <motor num="2" active="1" freq="20000"/>
+        <motor num="3" active="0" freq="20000"/>
+    </Motors>
+    <Controllers>
+        <controller num="0" active="0" freq="200" type="1" controlVar="0" refType="2" refValue1="3,140000" refValue2="0,000000" refValue3="0,000000" refValue4="0,000000">
+            <loop num="0" Kp="1,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="1" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="2" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="3" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+        </controller>
+        <controller num="1" active="0" freq="200" type="1" controlVar="0" refType="2" refValue1="3,140000" refValue2="0,000000" refValue3="0,000000" refValue4="0,000000">
+            <loop num="0" Kp="1,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="1" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="2" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="3" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+        </controller>
+        <controller num="2" active="1" freq="100" type="1" controlVar="0" refType="2" refValue1="3,140000" refValue2="0,000000" refValue3="0,000000" refValue4="0,000000">
+            <loop num="0" Kp="23,146000" Ki="2,630000" Kd="99,528000" Wup="12,000000"/>
+            <loop num="1" Kp="0,000000" Ki="0,000000" Kd="-55,549999" Wup="12,000000"/>
+            <loop num="2" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="3" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+        </controller>
+        <controller num="3" active="0" freq="200" type="1" controlVar="0" refType="2" refValue1="3,140000" refValue2="0,000000" refValue3="0,000000" refValue4="0,000000">
+            <loop num="0" Kp="1,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="1" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="2" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+            <loop num="3" Kp="0,000000" Ki="0,000000" Kd="0,000000" Wup="12,000000"/>
+        </controller>
+    </Controllers>
+    <Perturbations>
+        <perturbation num="0" active="0" perType="0" perValue1="1,000000" perValue2="0,000000" perValue3="0,000000" perValue4="0,000000"/>
+        <perturbation num="1" active="0" perType="0" perValue1="1,000000" perValue2="0,000000" perValue3="0,000000" perValue4="0,000000"/>
+        <perturbation num="2" active="1" perType="0" perValue1="1,000000" perValue2="0,000000" perValue3="0,000000" perValue4="0,000000"/>
+        <perturbation num="3" active="0" perType="0" perValue1="1,000000" perValue2="0,000000" perValue3="0,000000" perValue4="0,000000"/>
+    </Perturbations>
+    <Communication>
+        <comm num="0" active="0" freq="100" timeLimit="2,000000" pos="0" vel="0" cur="0" ref="0" err="0" err_ref_fb="0" uFF="0" uDI="0" uFB="0" uPA="0" u="0" uSat="0" y="0"/>
+        <comm num="1" active="0" freq="100" timeLimit="2,000000" pos="0" vel="0" cur="0" ref="0" err="0" err_ref_fb="0" uFF="0" uDI="0" uFB="0" uPA="0" u="0" uSat="0" y="0"/>
+        <comm num="2" active="1" freq="100" timeLimit="2,000000" pos="0" vel="0" cur="0" ref="1" err="1" err_ref_fb="0" uFF="0" uDI="0" uFB="0" uPA="0" u="1" uSat="1" y="1"/>
+        <comm num="3" active="0" freq="100" timeLimit="2,000000" pos="0" vel="0" cur="0" ref="0" err="0" err_ref_fb="0" uFF="0" uDI="0" uFB="0" uPA="0" u="0" uSat="0" y="0"/>
+    </Communication>
+</secoApp>
